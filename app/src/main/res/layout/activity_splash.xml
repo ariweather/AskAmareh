@@ -12,30 +12,31 @@
         android:id="@+id/imageView"
         android:layout_width="256dp"
         android:layout_height="178dp"
+        android:contentDescription="@string/ask_amareh_circle_logo_a_and_speech_bubble"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.382"
-        app:srcCompat="@drawable/ask_amareh_logo"
-        android:contentDescription="Ask Amareh circle logo: A and speech bubble." />
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/ask_amareh_logo" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_25sdp"
-        android:fontFamily="@font/notosans_lightitalic"
-        android:gravity="center"
-        android:text="by ariweather"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_15sdp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.977" />
-
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="@dimen/_100sdp"
+         android:layout_height="@dimen/_25sdp"
+         android:fontFamily="@font/notosans_lightitalic"
+         android:gravity="center"
+         android:text="by ariweather"
+         android:textColor="@color/black"
+         android:textSize="@dimen/_15sdp"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.498"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/imageView"
+         app:layout_constraintVertical_bias="0.049" />
+ -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
