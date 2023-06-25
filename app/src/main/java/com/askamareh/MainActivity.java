@@ -1,5 +1,6 @@
 package com.askamareh;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     EditText userQuestion;
     Button askButton;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         askButton.setOnClickListener(view -> {
 
             if (TextUtils.isEmpty(userQuestion.getText().toString())){
-                amarehResponse.setText("The way this works is that you actually have to ask me something.");
+                amarehResponse.setText(R.string.error_message_blank_user_text);
 
             } else {
                 onAnswerSubmitted();
