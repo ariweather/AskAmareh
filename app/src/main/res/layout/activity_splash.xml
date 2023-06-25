@@ -9,17 +9,43 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="256dp"
-        android:layout_height="178dp"
-        android:contentDescription="@string/ask_amareh_circle_logo_a_and_speech_bubble"
+        android:id="@+id/ask_handwritten"
+        android:layout_width="171dp"
+        android:layout_height="71dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@+id/amareh_handwritten"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ask_amareh_handwritten_ask"
+        android:contentDescription="Ask" />
+
+    <ImageView
+        android:id="@+id/amareh_handwritten"
+        android:layout_width="234dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ask_amareh_handwritten_amareh"
+        android:contentDescription="Amareh" />
+
+    <ImageView
+        android:id="@+id/amareh_face_circle"
+        android:layout_width="225dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="136dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/ask_handwritten"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/ask_amareh_logo" />
+        app:srcCompat="@drawable/amareh_circle_face"
+        android:contentDescription="Amareh's face" />
 
     <!-- <TextView
          android:id="@+id/textView2"

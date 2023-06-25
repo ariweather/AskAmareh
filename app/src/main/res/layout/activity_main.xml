@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:fontFamily="@font/notosans_semibolditalic"
-            android:hint="Ask Amareh a yes or no question."
+            android:hint="@string/user_input_hint"
             android:inputType="textCapSentences|textAutoCorrect"
             android:textAlignment="center"
             android:autofillHints="Are you my friend?" />
@@ -59,9 +59,9 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="409dp"
+        android:layout_width="360dp"
         android:layout_height="131dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
