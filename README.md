@@ -19,4 +19,7 @@ My first ever app putting a spin on a classic coding challenge: the Magic 8 Ball
 
 <p>Really thankful for the tons of knowledge available on the internet and the helpful coding community.</p>
 
+<p>-->See how it works: https://youtu.be/B4zece62Hws</p>
+<p>-->Test it out on Google Play: https://play.google.com/store/search?q=ask%20amareh&c=apps&hl=en_US&gl=US</p>
+
 ![Ask_Amareh_undecided](https://github.com/ariweather/AskAmareh/assets/112807046/863fcfb3-17af-490c-9c22-7acd55b26e32)
